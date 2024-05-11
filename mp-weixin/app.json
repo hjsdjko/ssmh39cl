@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yezhu/list",
+    "pages/yezhu/add-or-update",
+    "pages/yezhu/detail",
+    "pages/yiqingfenbu/list",
+    "pages/yiqingfenbu/add-or-update",
+    "pages/yiqingfenbu/detail",
+    "pages/daigouwupin/list",
+    "pages/daigouwupin/add-or-update",
+    "pages/daigouwupin/detail",
+    "pages/jiankangdaka/list",
+    "pages/jiankangdaka/add-or-update",
+    "pages/jiankangdaka/detail",
+    "pages/xiaodujilu/list",
+    "pages/xiaodujilu/add-or-update",
+    "pages/xiaodujilu/detail",
+    "pages/laifangdengji/list",
+    "pages/laifangdengji/add-or-update",
+    "pages/laifangdengji/detail",
+    "pages/churudengji/list",
+    "pages/churudengji/add-or-update",
+    "pages/churudengji/detail",
+    "pages/jubaoxinxi/list",
+    "pages/jubaoxinxi/add-or-update",
+    "pages/jubaoxinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的小区疫情防控",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#82A39D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yiqingfenbu/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "疫情分布"
+      },
+      {
+        "pagePath": "pages/xiaodujilu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "消毒记录"
+      },
+      {
+        "pagePath": "pages/jubaoxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "举报信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
